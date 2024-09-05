@@ -197,7 +197,7 @@ module.exports.resetPassword = async (req, res) => {
 module.exports.detail = async (req, res) => {
   res.json({
     code: 200,
-    message: "Successfully!",
+    message: "Successfully!!!",
     info: req.user
   });
 }
